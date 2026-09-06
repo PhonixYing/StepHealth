@@ -1,0 +1,190 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - link "StepHealth 首页" [ref=e3] [cursor=pointer]:
+      - /url: "#top"
+      - generic [ref=e4]: StepHealth
+    - navigation "主导航" [ref=e5]:
+      - link "功能" [ref=e6] [cursor=pointer]:
+        - /url: "#features"
+      - link "隐私" [ref=e7] [cursor=pointer]:
+        - /url: "#privacy"
+      - link "Pro" [ref=e8] [cursor=pointer]:
+        - /url: "#pro"
+      - link "下载 App ↗" [ref=e9] [cursor=pointer]:
+        - /url: "#download"
+      - combobox "选择语言" [ref=e10] [cursor=pointer]:
+        - option "English"
+        - option "Español"
+        - option "Français"
+        - option "Português (Brasil)"
+        - option "Português (Portugal)"
+        - option "العربية"
+        - option "日本語"
+        - option "简体中文" [selected]
+        - option "繁體中文"
+  - main [ref=e11]:
+    - generic [ref=e12]:
+      - generic [ref=e13]:
+        - paragraph [ref=e14]: 为日常活动而生
+        - heading [level=1] [ref=e16]:
+          - text: 每一步，都算数。
+          - emphasis [ref=e17]: 也都值得被看见。
+        - paragraph [ref=e18]: StepHealth 把 Apple 健康里的活动数据，变成清晰、有温度的每日记录。没有复杂的训练计划，只有陪你走得更远的好习惯。
+        - generic [ref=e19]:
+          - link "在 App Store 下载 StepHealth" [ref=e20] [cursor=pointer]:
+            - /url: https://apps.apple.com/app/stephealth-step-counter/id6798724026
+            - generic [ref=e23]:
+              - generic [ref=e24]: 在 App Store
+              - text: 下载
+          - link "探索功能 ↓" [ref=e25] [cursor=pointer]:
+            - /url: "#features"
+        - generic [ref=e26]:
+          - generic [ref=e31]: +
+          - paragraph [ref=e32]: 为更自在的每一天而设计
+      - generic "StepHealth 今日活动页面示意" [ref=e33]:
+        - generic [ref=e36]:
+          - generic [ref=e37]: ✦
+          - generic [ref=e38]: 连续 12 天
+          - generic [ref=e39]: 保持你的节奏
+        - generic [ref=e40]:
+          - generic [ref=e41]: ⌁
+          - generic [ref=e42]: 6.8 km
+          - generic [ref=e43]: 今日距离
+        - generic [ref=e46]:
+          - generic [ref=e47]:
+            - generic [ref=e48]: 9:41
+            - generic [ref=e49]: ● ● ◖
+          - generic [ref=e50]:
+            - generic [ref=e51]: 星期五，8 月 7 日
+            - button "刷新" [ref=e52]: ↻
+          - heading "今天，走得不错。" [level=2] [ref=e53]
+          - generic [ref=e58]:
+            - strong [ref=e59]: 8,462
+            - text: 步
+            - generic [ref=e60]: 目标 8,000 步
+          - paragraph [ref=e61]: ✓ 今日目标已达成
+          - generic [ref=e62]:
+            - generic [ref=e63]:
+              - generic [ref=e64]: 距离
+              - generic [ref=e65]: 6.8 km
+            - generic [ref=e66]:
+              - generic [ref=e67]: 活动热量
+              - generic [ref=e68]: 286 kcal
+          - generic [ref=e69]:
+            - generic [ref=e70]: ●
+            - generic [ref=e71]:
+              - generic [ref=e72]: 约相当于
+              - text: 3 个苹果的热量
+            - emphasis [ref=e73]: ›
+          - generic [ref=e74]:
+            - generic [ref=e75]: ⌂
+            - generic [ref=e76]: ⌁
+            - generic [ref=e77]: ◎
+            - generic [ref=e78]: ◯
+        - generic [ref=e79]:
+          - generic [ref=e80]: ✓
+          - generic [ref=e81]: 目标完成
+          - generic [ref=e82]: 今天的你很棒
+    - generic [ref=e83]:
+      - paragraph [ref=e84]: 不必追赶别人，只要比昨天的自己，多走一步。
+      - generic [ref=e85]:
+        - generic [ref=e86]: "1"
+        - generic [ref=e87]: "0"
+        - generic [ref=e88]: "0"
+        - generic [ref=e89]: "%"
+        - generic [ref=e90]: 你的步伐由你定义
+    - generic [ref=e91]:
+      - generic [ref=e92]:
+        - paragraph [ref=e93]: 清晰，而不复杂
+        - heading [level=2] [ref=e94]:
+          - text: 把活动，变成
+          - emphasis [ref=e95]: 你愿意每天打开的事。
+      - generic [ref=e96]:
+        - article [ref=e97]:
+          - generic [ref=e98]:
+            - paragraph [ref=e99]: 01 / 今日
+            - heading "一眼看懂 今天走了多远" [level=3] [ref=e100]: 一眼看懂今天走了多远
+            - paragraph [ref=e101]: 步数、距离、活动热量和目标进度，都在最重要的位置。
+          - generic [ref=e102]:
+            - generic [ref=e103]:
+              - generic [ref=e104]: 8,462
+              - generic [ref=e105]: 步
+            - generic [ref=e106]: 已完成 106%
+        - article [ref=e108]:
+          - generic [ref=e109]:
+            - paragraph [ref=e110]: 02 / 趋势
+            - heading "让坚持 看得见" [level=3] [ref=e111]: 让坚持看得见
+            - paragraph [ref=e112]: 按周、按月回顾属于你的活动轨迹。
+          - generic [ref=e113]: 本周平均 7,840 步
+        - article [ref=e122]:
+          - paragraph [ref=e123]: 03 / 目标
+          - generic [ref=e124]: ✦
+          - heading "不紧绷的 小小鼓励" [level=3] [ref=e125]: 不紧绷的小小鼓励
+          - paragraph [ref=e126]: 设定适合自己的目标，温柔地保持节奏。
+        - article [ref=e127]:
+          - generic [ref=e128]: 约95kcal
+          - generic [ref=e131]:
+            - paragraph [ref=e132]: 04 / 趣味换算
+            - heading "数字，也可以很有画面感。" [level=3] [ref=e133]
+            - paragraph [ref=e134]: 用苹果热量、操场圈数等生活化语言，理解每一次出发。
+    - generic [ref=e135]:
+      - generic [ref=e136]:
+        - generic [ref=e137]:
+          - generic [ref=e138]: ⌁
+          - generic [ref=e139]: YOUR DATASTAYS YOURS
+        - generic [ref=e140]: ✦
+        - generic [ref=e141]: ✦
+      - generic [ref=e142]:
+        - paragraph [ref=e143]: 你的数据，属于你
+        - heading "健康数据，不该成为商品。" [level=2] [ref=e144]
+        - paragraph [ref=e145]: StepHealth 通过 Apple 健康读取活动记录，数据主要在你的设备上处理。我们不售卖健康数据，不做广告追踪，也不需要注册账号。
+        - link "阅读隐私政策 ↗" [ref=e146] [cursor=pointer]:
+          - /url: privacy.html
+    - generic [ref=e147]:
+      - generic [ref=e148]:
+        - paragraph [ref=e149]: StepHealth Pro
+        - heading "给想走得更远的你。" [level=2] [ref=e150]
+        - paragraph [ref=e151]: 一次解锁，把你的每一段坚持好好收藏。
+      - generic [ref=e152]:
+        - generic [ref=e153]:
+          - text: ✦
+          - heading [level=3] [ref=e154]:
+            - text: StepHealth
+            - emphasis [ref=e155]: Pro 终身版
+          - paragraph [ref=e156]: 完整历史、深度洞察、报告导出、专属小组件和更多个性化设置。
+          - link "了解 Pro ↗" [ref=e157] [cursor=pointer]:
+            - /url: "#download"
+        - list [ref=e158]:
+          - listitem [ref=e159]:
+            - generic [ref=e160]: ✓
+            - text: 年度与完整历史趋势
+          - listitem [ref=e161]:
+            - generic [ref=e162]: ✓
+            - text: 周报、月报与数据导出
+          - listitem [ref=e163]:
+            - generic [ref=e164]: ✓
+            - text: 多个目标计划与提醒
+          - listitem [ref=e165]:
+            - generic [ref=e166]: ✓
+            - text: 专属小组件与主题
+    - generic [ref=e168]:
+      - paragraph [ref=e169]: 从今天开始
+      - heading [level=2] [ref=e170]:
+        - text: 走出自己的
+        - emphasis [ref=e171]: 每一步。
+      - paragraph [ref=e172]: 不需要完美的开始。现在，就已经很好。
+      - link "在 App Store 下载 StepHealth" [ref=e173] [cursor=pointer]:
+        - /url: https://apps.apple.com/app/stephealth-step-counter/id6798724026
+        - generic [ref=e176]:
+          - generic [ref=e177]: 在 App Store
+          - text: 下载
+  - contentinfo [ref=e178]:
+    - link "StepHealth 首页" [ref=e179] [cursor=pointer]:
+      - /url: "#top"
+      - generic [ref=e180]: StepHealth
+    - paragraph [ref=e181]: © 2026 StepHealth. 每一步，都算数。
+    - generic [ref=e182]:
+      - link "隐私政策" [ref=e183] [cursor=pointer]:
+        - /url: privacy.html
+      - link "支持与反馈" [ref=e184] [cursor=pointer]:
+        - /url: support.html
